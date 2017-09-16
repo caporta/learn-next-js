@@ -1,12 +1,10 @@
 import Link from 'next/link'
 
-const Index = () => (
+import Header from '../components/Header'
+
+export default () => (
   <div>
-    <Link href='/about'>
-      <a style={{ fontSize: 14 }}>About</a>
-    </Link>
+    <Header />
     <p>Hello Next.js</p>
   </div>
 )
-
-export default Index
